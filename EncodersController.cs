@@ -35,6 +35,7 @@ public class EncodersController : Controller
             return Ok(decoded);
         }
 
+
         return BadRequest("Please enter a valid Base64 string");
     }
 }
